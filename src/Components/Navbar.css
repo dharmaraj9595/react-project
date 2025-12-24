@@ -1,0 +1,47 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 25px;
+  background-color: #b0c7fd;
+  color: rgb(184, 14, 14);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  width: 40px;
+  height: 40px;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+  color: black;
+}
+
+.list li {
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.sign {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: black;
+}
+
+.sign button {
+  padding: 6px 14px;
+  border: none;
+  background-color: #1818d7;
+  color:white;
+  border-radius: 5px;
+  cursor: pointer;
+}
