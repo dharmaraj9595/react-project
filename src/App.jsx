@@ -29,18 +29,18 @@ function App() {
 
   return (
     <div>
-      <h2>Navbar task</h2> 
+      {/* <h2>Navbar task</h2>  */}
 
-       <Navbar/>
+       {/* <Navbar/>
       <Navbar2/>
       <Navbar3/>
       <Navbar4/>
       <Navbar5/>
-      <Navbar6/>
+      <Navbar6/> */}
 
-  <Counter/>
+  {/* <Counter/> */}
 
-  <ChangeName/> 
+  {/* <ChangeName/>  */}
 
        <ApiCall/> 
 
