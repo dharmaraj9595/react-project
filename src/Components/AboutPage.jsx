@@ -1,5 +1,5 @@
 import React from "react";
-import "../Components/";
+import "../Components/AboutPage.css";
 
 function About() {
   return (

@@ -14,6 +14,7 @@ import FormOne from "./Components/FormOne";
 import FormTwo from "./Components/FormTwo";
 import "bootstrap/dist/css/bootstrap.min.css";
 import HomePage from "./Components/HomePage";
+import About from "./Components/AboutPage";
 
 
 
@@ -42,7 +43,7 @@ function App() {
 
   {/* <ChangeName/>  */}
 
-       <ApiCall/> 
+       {/* <ApiCall/>  */}
 
        {/* <CardComp/>   */}
 
@@ -57,6 +58,7 @@ function App() {
       {/* <FormTwo/> */}
 
       <HomePage/>
+      <About/>
 
     </div>
   )
