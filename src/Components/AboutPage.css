@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 50px;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: #2f4cff;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.btn {
+  background: #2f4cff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* About Section */
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px;
+  background: #eef5ff;
+}
+
+.about-text {
+  width: 50%;
+}
+
+.about-text h1 {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.about-img img {
+  width: 400px;
+}
+
+/* Who Are We */
+.who {
+  display: flex;
+  align-items: center;
+  padding: 60px;
+  gap: 50px;
+}
+
+.who-text h2 {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.who-text ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+.who-text li {
+  margin-bottom: 8px;
+}
+
+/* Brand Section */
+.brand {
+  text-align: center;
+  padding: 60px;
+  background: #f8f9ff;
+}
