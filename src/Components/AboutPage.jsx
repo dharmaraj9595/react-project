@@ -2,12 +2,16 @@ import React from "react";
 import "../Components/AboutPage.css";
 import teamDiscussionImage from "../assets/aboutpage1.jpg"
 import webIllustrationImage from "../assets/aboutpage2.jpg"
+import logo from "../assets/bentech.jpg"
 function About() {
   return (
     <>
       {/* Navbar */}
       <nav className="navbar">
-        <div className="logo">SoftBenTech</div>
+        <div className="logo">
+          <img src={logo} alt="SoftBenTech"/>
+          <h2>SoftBenTech</h2>
+          </div>
         <ul className="nav-links">
           <li>Home</li>
           <li>About Us</li>

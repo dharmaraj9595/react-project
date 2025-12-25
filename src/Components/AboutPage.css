@@ -14,10 +14,15 @@
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
-.logo {
+.logo h2{
   font-size: 22px;
   font-weight: bold;
   color: #2f4cff;
+}
+
+.logo img{
+  width: 10rem;
+  height: 5rem;
 }
 
 .nav-links {
