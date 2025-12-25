@@ -1,6 +1,7 @@
 import React from "react";
 import "../Components/AboutPage.css";
-
+import teamDiscussionImage from "../assets/aboutpage1.jpg"
+import webIllustrationImage from "../assets/aboutpage2.jpg"
 function About() {
   return (
     <>
@@ -29,14 +30,14 @@ function About() {
         </div>
 
         <div className="about-img">
-          <img src="/images/about.png" alt="about" />
+          <img src={teamDiscussionImage} alt="about" />
         </div>
       </section>
 
       {/* Who Are We */}
       <section className="who">
         <div className="who-img">
-          <img src="/images/who.png" alt="who we are" />
+          <img src={webIllustrationImage} alt="who we are" />
         </div>
 
         <div className="who-text">
