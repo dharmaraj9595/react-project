@@ -16,7 +16,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import HomePage from "./Components/HomePage";
 import About from "./Components/AboutPage";
 
-
+import { BrowserRouter,Routes,Route,Link} from "react-router-dom";
 
 
 
@@ -29,7 +29,7 @@ function App() {
   }
 
   return (
-    <div>
+    <BrowserRouter>
       {/* <h2>Navbar task</h2>  */}
 
        {/* <Navbar/>
@@ -57,10 +57,18 @@ function App() {
 
       {/* <FormTwo/> */}
 
-      <HomePage/>
-      <About/>
+      {/* <HomePage/> */}
+      {/* <About/> */}
 
-    </div>
+ 
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/ApiCall" element={<ApiCall/>} />
+        <Route path="/about" element={<About />} />
+      </Routes>
+
+
+    </BrowserRouter>
   )
 }
 
