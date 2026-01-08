@@ -61,7 +61,7 @@ handleget();
             <h1>GroceryList</h1>
 
             <input onChange={handleitem} placeholder="Enter your Grocery item" />
-            <button onClick={handleadd} className="ms-4 btn btn-secondary">submit</button>
+            <button onClick={handleadd} className="ms-4 btn btn-primary">submit</button>
 
             <br />
             <br />
